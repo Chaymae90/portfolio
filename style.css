@@ -1,0 +1,162 @@
+section {
+  width: 100%;
+  padding-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0;
+  margin: 0;
+  height:100vh;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-size: 4\em;
+	font-weight: bold;
+	line-height: 0.8;
+  margin-bottom: 0;
+}
+
+p {
+  width: 45%;
+	font-family: Merriweather;
+  font-size: 0.7em;
+  font-weight: 300;
+	line-height: 1.6;
+  font-weight: lighter;
+}
+
+span {
+  color: #ca2d2d;
+}
+
+
+#profile_pic {
+  background-image: url("./chay2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(79, 18, 18, 0.4);
+}
+
+.hi-ho {
+	font-family: Montserrat;
+	font-size: 5em;
+	font-weight: bold;
+	line-height: 0.4;
+	color: #ca2d2d;
+}
+
+.red_background img {
+  width: 40%;
+  display: inline;
+  float: right;
+}
+
+.red_background {
+  color: #f7f7f1;
+  background-color: #CA2D2D;
+}
+
+.text_left {
+  float: left;
+  display: inline;
+  width: 40%;
+}
+
+.white_background {
+  color: #323238;
+	font-family: Merriweather;
+  background-color: white_background;
+
+}
+.white_background img {
+  height: 60vh;
+  display: inline;
+  float: left;
+
+}
+
+.text_right {
+  float: right;
+  display: inline;
+  width: 40%;
+}
+@media only screen and (max-width : 320px)
+{
+  section {
+    background-color: yellow;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    height:100vh;
+    line-height: 1.2em;
+  }
+  .about-text {
+    color: green;
+  	font-family: Montserrat;
+  	font-size: 2em;
+  	font-weight: bold;
+  	line-height: 0.9;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+
+  p {
+    width: 80%;
+  	font-family: Merriweather;
+    font-size: 0.5em;
+    font-weight: 300;
+  	line-height: 1.6;
+    font-weight: lighter;
+  }
+  .hi-ho {
+  	font-family: Montserrat;
+  	font-size: 3em;
+  	font-weight: bold;
+  	line-height: 0.4;
+  	color: #ca2d2d;
+  }
+
+  .red_background img {
+    width: 50%;
+    display: block;
+    float: right;
+  }
+
+  .red_background {
+    color: #f7f7f1;
+    background-color: #CA2D2D;
+  }
+
+  .text_left {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+
+  .white_background {
+    color: #323238;
+  	font-family: Merriweather;
+    background-color: white_background;
+
+  }
+  .white_background img {
+    width: 50%;
+    display: block;
+    float: left;
+
+  }
+
+  .text_right {
+    float: right;
+    display: block;;
+    width: 100%;
+  }
+}
+@media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
+  /* Your click-specific css goes here */
+}
