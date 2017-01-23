@@ -1,257 +1,159 @@
-tml, body {
-	max-width: 100%;
-}
 body {
-	padding: 0;
-	margin: 0;
-	overflow-x: hidden !important;
-    overflow-y: scroll;
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-  width: 80%;
+  width: 100%;
   padding-top: 0;
-  padding-bottom: 0;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 0;
   margin: 0;
   height:100vh;
   font-size: 2em;
   line-height: 1.2em;
-  display: inline-block;
-  vertical-align: middle;
 }
 
-h1 {
-	font-family: Montserrat;
-	font-size: 4em;
-	font-weight: bold;
-	line-height: 0.8;
+.horizon{ opacity:"0"; }
+
+.portfolio h1 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 2em;
+  color: #E3120B;
+  letter-spacing: 0;
+  line-height: 1;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-p {
-  width: 40%;
-	font-family: Merriweather;
-  font-size: 0.7em;
-  font-weight: lighter;
-	line-height: 160%;
-  padding-top: 2%;
+.portfolio h2 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 1.4em;
+  color: #E3120B;
+  letter-spacing: 0;
+  line-height: 1.2em;
 }
 
-a {
-	font-family: Merriweather;
-  font-size: 0.8em;
-  font-weight: lighter;
-	line-height: 1.8;
-  padding-top: 2%;
+.portfolio h6 {
+  /* Napoleon Bonaparte: */
+font-family: PlayfairDisplay-Italic;
+font-size: 0.6em;
+font-weight: lighter;
+font-style: italic;
+text-align: right;
+color: #E3120B;
+letter-spacing: 0;
 }
 
-span {
-  color: #ca2d2d;
+.portfolio p {
+font-family: Merriweather-Light;
+font-size: 0.6em;
+font-weight: lighter;
+color: #323238;
+letter-spacing: 0;
+line-height: 32px;
+align-items: center;
 }
 
-button {
-  font-family: Montserrat;
-  font-size: 0.6em;
-  letter-spacing: 2px;
-  line-height: 2rem;
-  background-color: transparent;
-  padding:15px 60px 15px 60px;
-  border-width:3px;
-  border-radius:0px;
-  -moz-border-radius:0px;
-  -webkit-border-radius:0px;
-  }
+.portfolio a {
+  /* Doanload the present: */
+font-family: PlayfairDisplay-Regular;
+font-size: 1.2em;
+font-weight: 100;
+text-decoration: underline;
+color: #E3120B;
+letter-spacing: 0;
+}
 
-  #profile_pic {
-    background-image: url("./chay.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.spacer {
+  height: 100px;
+  width: 100%;
+}
 
-  #blog-section {
-    width: 100%;
-    height: 100vh;
-    vertical-align: baseline;
-  }
+#section1 {
+  background-image: url("./portrait-white-small.png");
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
 
-	.profile_pic {
-	/*	background-color: rgba(190, 1, 24, 0.7); */
-		width: 100vw;
-		margin: 0;
-		position: absolute;
-		color: #F7F7F1;
-	  padding-top: 10%;
+}
 
-	}
-	#hi-ho-paragraph {
-		font-family: Montserrat;
-		width: 70%;
-		font-weight: bold;
-		font-size: 2em;
-		line-height: 150%;
-	}
+.profile_pic {
+  width: 90vw;
+  padding-top: 5%;
+}
+.signature img{
+  width: 50%;
+  display: block;
+  float: right;
+  padding-right: 3%;
+}
 
-	.about_something {
-	}
-
-	.about_something h1{
-	  padding: 1%;
-	  margin: 0;
-	}
-
-	.about_something p {
-	  width: 50%;
-		font-family: Merriweather;
-	  font-size: 0.7em;
-	  font-weight: lighter;
-		line-height: 160%;
-		margin: 0 0 0 13px;
-		padding: 0;
-	}
-
-  .article {
-    color: #F7F7F1;
-    font-family: Montserrat;
-    font-size: 1.2em;
-    line-height: normal;
-    width: 30vw;
-    height: 20vh;
-    display: inline;
-    float: left;
-    background-color: #323238;
-    padding: 5%;
-    margin: 1%;
-  }
-
-  .article a {
-      text-decoration: none;
-      color: #F7F7F1;
-      text-align: left;
-  }
-
-
-.hi-ho {
-	font-family: Montserrat;
-	font-size: 4em;
-	font-weight: bold;
-	color: #F7F7F1;
+.iam-chaymae p{
+  float: right;
+  padding-right: 3%;
   padding-top: 0;
   margin-top: 0;
-	padding-top: 0;
+  width:60%;
+  font-size: 1.3em;
+  line-height: 1.1em;
+  text-align: right;
+  display: block;
 }
 
-.red_background {
-  color: #f7f7f1;
-  background-color: #BE0118;
+.scroll-down {
+  display: none;
+  width: 100%;
+  background-color: yellow;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.scroll-down img {
+  width: 3%;
+  padding-top: 4%;
+  top: 90%;
 }
 
-.red_background img {
+.about_something {
+  width: 60%;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+.image-right img {
   width: 40%;
   display: inline;
   float: right;
-  margin-right: 2%;
+  margin: 0;
+  padding: 0;
 }
-
-.white_background {
-  color: #323238;
-  background-color: white_background;
-  padding-top: 0;
-  margin-top: 0;
-
+.text_left {
+  float: left;
+  display: inline;
+  width: 40%;
+  margin: 0;
+  padding: 0;
 }
-.white_background img {
+.image-left img {
   width: 40%;
   display: inline;
   float: left;
-  margin-left: 2%;
-}
-
-.image-text {
-  display: block;
-  vertical-align: middle;
-  padding-top: 5%;
-  width: 100%;
-  height: 70%;
-}
-
-.image-text h1 {
-	font-size: 2em;
-  font-weight: normal;
-  line-height: 4rem;
-  padding-top: 2%;
-}
-
-.pic-right {
-	float: right;
-	display: inline;
-	width: 40%;
-}
-
-.pic-left {
-	float: left;
-	display: inline;
-	width: 40%;
-}
-
-.text_left {
-  width: 40%;
-	float: left;
-  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 .text_right {
   float: right;
   display: inline;
   width: 40%;
+  margin: 0;
+  padding: 0;
 }
-
-.button-blanc {
-	color: #f7f7f1;
-	padding-top: 2%;
-  text-align: center;
-	display: block;
-  width: 100%;
-  border-color:#F7F7F1;
-  }
-
-.button-rouge {
-	color: #BE0118;
-	padding-top: 2%;
-  text-align: center;
-  display: block;
-  width: 100%;
-  border-color: #BE0118;
-  }
-
-.blog-blocks {
-  display: block;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-}
-
-.social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 5%;
-  width: 80%;
-}
-
-.icons {
-  display: inline;
-  margin: 1%;
-}
-
-
-
-
 @media only screen and (max-width : 320px)
 {
   section {
@@ -279,7 +181,7 @@ button {
   	font-family: Merriweather;
     font-size: 0.5em;
     font-weight: 300;
-  	line-height: 80%;
+  	line-height: 1.6;
     font-weight: lighter;
   }
   .hi-ho {
@@ -291,18 +193,15 @@ button {
   }
 
   .red_background img {
-    width: 40%;
+    width: 50%;
     display: block;
     float: right;
-    margin-right: 2%;
   }
 
   .red_background {
     color: #f7f7f1;
     background-color: #CA2D2D;
   }
-
-
 
   .text_left {
     float: left;
@@ -328,7 +227,6 @@ button {
     display: block;;
     width: 100%;
   }
-
 }
 @media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
   /* Your click-specific css goes here */

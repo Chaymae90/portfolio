@@ -1,112 +1,132 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Chaymae's portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <meta name='viewport' content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.min.css"/>
+    <link rel="stylesheet" href="timber.core.min.css">
+    <meta name='viewport' content="width=device-width, initial-scale=1"/>
   </head>
-  <body>
-    <section id="profile_pic">
-      <div class="profile_pic">
-        <!--<h1 class="hi-ho">Hi-Ho!</h1> -->
-        <p id="hi-ho-paragraph">Hi-Ho! My name is Chaymae<br>
-           I am a UX Designer  <br> n’a mighty pirate. <br><br>
-           Scroll down to see my work!
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class="about_something">
-        <h1 class="titre-about-text">Design <br><span>is</span><br>Human</h1><br>
-        <p>I design because I care; I aim to reduce people’s frustrations that come with using digital products.<br><br>
-           My journey initially started with a bachelor’s degree in Set Design. I discovered the power of the humans interactivity with objects and its impact on their emotions, which led me today, to User Experience Design.<br><br>
-           I see design in layers and perceive it as an interactive installation.
-         </p>
-       </div>
-    </section>
-    <section class="red_background">
-      <div class="image-text">
-        <div class="pic-right">
-          <img src="body-you.png" alt="">
+  <body class="portfolio">
+    <div id="fullpage">
+      <section id="section1" class="section">
+        <div class="profile_pic">
+            <div data-animate-in="preset:slideInUpLong;duration:1700ms;" class="horizon signature">
+              <img src="signature.png" alt="">
+            </div>
+            <div data-animate-in="preset:slideInUpLong;duration:800ms;" class="horizon iam-chaymae">
+            <p>I’m Chaymae<br>
+               UX Designer <br> n’a mighty pirate.
+            </p>
+          </div>
         </div>
-        <div class="text_left">
-          <h1>FITNESS<br>REVISITED</h1>
-          <p>Spotlight on the new<br>
-             Body You<br>
-             mobile app<br>
-           </p>
+        <div class="scroll-down">
+          <img src="button-scroll.png" alt="">
         </div>
-      </div>
-      <div class="button-blanc">
-        <button type="button" name="button" target="_blank">See case study</button>
-      </div>
-    </section>
-    <section class="white_background">
-      <div class="image-text">
-        <div class="pic-left">
-          <img src="virginatlantic.png" alt="">
-        </div>
-        <div class="text_right">
-          <h1>LET<br><span>IT</span><br>FLY!</h1>
-          <p>Redesigning Virgin Atlantic’s mobile app<br><br>
-             Exceptional in-flight entertainement experience
-           </p>
-        </div>
-      </div>
-      <div class="button-rouge">
-        <button type="button" name="button" target="_blank">See case study</button>
-      </div>
-    </section>
-    <section class="red_background">
-      <div class="image-text">
-        <div>
-          <img src="hatefree.png" alt="">
-        </div>
-        <div class="text_left">
-          <h1>HATE<br>FREE</h1>
-          <p>Prevents hate speech on digital platforms.<br>
-             Alert International Hackathon winner
-           </p>
-        </div>
-      </div>
-      <div class="button">
-        <button type="button" name="button" target="_blank">See case study</button>
-      </div>
-    </section>
-    <section>
-        <div class="about_something">
-          <h1 class="about-text">MY<br><span>UX</span><br>BLOG</h1><br>
-          <p>I am a big fan of ideation and rapid prototyping.<br><br>
-            In my free time, I enjoy writing, doing research and digging into these particlar aspects of the UX process.<br><br>
-             Check out my articles !
+      </section>
+      <section class="section">
+        <div data-animate-in="preset:slideInUpLong;duration:800ms;" class="horizon about_something">
+          <h2 class="about-text">“Imagination rules the world.”</h2>
+          <h6>Napoleon Bonaparte</h6>
+          <p>I design because I care; I aim to reduce people’s frustrations that come with using digital products.
+             My journey initially started with a bachelor’s degree in Set Design. I discovered the power of the humans interactivity with objects and its impact on their emotions, which led me today, to User Experience Design.
+             I see design in layers and perceive it as an interactive installation.
            </p>
          </div>
-       </div>
-    </section>
-    <section id="blog-section">
-      <div class="blog-blocks">
-        <div class="article"><a href="https://medium.com/@ChaymaeLougmani/what-is-ux-and-why-you-should-care-a981fc5ea67b#.w1jfppxj7">What is <span>UX</span> and why you should care</a></div>
-        <div class="article"><a href="https://blog.prototypr.io/rapid-prototyping-for-mobile-app-ab394c9086e2#.en01z9roz">How to make a rapid <span>prototype</span> for mobile apps</a></div>
-        <div class="article"><a href="https://blog.prototypr.io/why-paper-prototyping-is-crucial-in-designing-good-digital-products-539dfbc03fbf#.f9jmsfisn">Why paper <span>prototyping</span> is crucial in designing good digital products</a></div>
-        <div class="article"><a href="#">New Year’s Resolution, How to Get You Started in <span>UX</span></a></div>
-      </div>
-    </section>
-    <section>
+         <div class="scroll-down">
+           <img src="button-scroll.png" alt="">
+         </div>
+      </section>
+      <section class="section">
+        <div data-animate-in="preset:slideInLeftShort;duration:800ms;" class="horizon image-left">
+          <img src="virgin-atlantic.png" alt="">
+        </div>
+        <div data-animate-in="preset:slideInRightShort;duration:800ms;" class="horizon text_right">
+          <h1>LET IT FLY!</h1>
+          <p>Redesigning Virgin Atlantic’s mobile app
+             Exceptional in-flight entertainement experience
+           </p>
+           <div class="spacer"></div>
+           <p><a href="#">Read the case study</a></p>
+           <p><a href="#">Doanload the presentation</a></p>
+        </div>
+        <div class="scroll-down">
+          <img src="button-scroll.png" alt="">
+        </div>
+      </section>
+      <section class="section">
+        <div data-animate-in="preset:slideInRightShort;duration:800ms;" class="horizon image-right">
+          <img src="body-you.png" alt="">
+        </div>
+        <div data-animate-in="preset:slideInLeftShort;duration:800ms;" class="horizon text_left">
+          <h1>FITNESS REVISITED</h1>
+          <p>Spotlight on the new
+             Body You
+             mobile app
+           </p>
+           <div class="spacer"></div>
+           <p><a href="#">Read the case study</a></p>
+           <p><a href="#">Doanload the presentation</a></p>
+        </div>
+        <div class="scroll-down">
+          <img src="button-scroll.png" alt="">
+        </div>
+      </section>
+      <section class="section">
+        <div data-animate-in="preset:slideInUpLong;duration:800ms;" class="horizon about_something">
+          <h2 class="about-text">“Empathy is key to design accessible digital products.”</h2>
+          <p>I’ve always wanted to do something creative but that has a good impact on people’s lives. I believe change can start with small steps.<br>
+          <p>With a small team, we creates a Chrome extention to reduce hate speech in digital platforms. The plugin detects the user’s input, takes it through a hate API and provides feedback when hate words are detected.<br>
+          <a href="#">Read more about our hackathon winner HateFree Plugin.</a><br><br>
+          I gave a talk once at Women Who Code at CodeNode. I talked about accessiblity in digital forms and shared tips to made these forms accessible.<br>
+          <a href="#">Have a look at the deck.</a>
+          </p>
+         </div>
+         <div class="scroll-down">
+           <img src="button-scroll.png" alt="">
+         </div>
+      </section>
+      <section class="section">
+        <div data-animate-in="preset:slideInUpLong;duration:800ms;" class="horizon about_something">
+          <h2 class="about-text">“I never lose. I either win or learn.”</h2>
+          <h6>Nelson Mandela</h6>
+          <p>I am a big fan of ideation and rapid prototyping. I like testing my ideas quickly and iterating until I get something effective.</p>
+          <p>In my free time, I enjoy writing, doing research and digging into these particlar aspects of the UX process.</p>
+         </div>
+         <div class="scroll-down">
+           <img src="button-scroll.png" alt="">
+         </div>
+      </section>
+  <!--  <section>
       <div class="about_something">
-          <h1 class="about-text">GET<br><span>IN</span><br>TOUCH</h1><br>
-          <p>Say hello and let's chat ! <a href="mailto:chaymae.lougmani@gmail.com?subject=feedback">chaymae.lougmani@gmail.com</a> <br><br>
-              It's not only for work; I'm always interested to see other designers work. So don't hesitate, get in touch and share !
-          </p><br>
-          <p>You can also find me in social media</p>
+        <h1 class="about-text">MY<br>UX<br>BLOG</h1>
+        <p>I am a big fan of ideation and rapid prototyping. In my free time, I enjoy writing, doing research and digging into these particlar aspects of the UX process.
+           Check out what my articles !
+         </p>
        </div>
-       <div class="social-media">
-         <div class="icons"><img src="BEHANCE.png" alt=""></div>
-         <div class="icons"><img src="DRIBBLE.png" alt=""></div>
-         <div class="icons"><img src="LINKEDIN.png" alt=""></div>
-         <div class="icons"><img src="TWITTER.png" alt=""></div>
-       </div>
-    </section>
+    </section> -->
+    </div>
   </body>
+
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="timber.master.min.js"></script>
+  <script type="text/javascript" src="jquery.tm.horizon.js"></script>
+  <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+  <script type="text/javascript">
+
+$( document ).ready( function(){
+  $('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+    menu: '#menu',
+    css3:true,
+    lockAnchors: true,
+    afterLoad: function(){
+      $(window).scroll();
+    }
+  });
+	$( '.horizon' ).horizon({threshold:0.5});
+});
+
+  </script>
 </html>
