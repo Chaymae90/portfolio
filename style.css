@@ -24,7 +24,7 @@ section {
   letter-spacing: 0;
   line-height: 1;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 4%;
 }
 
 .portfolio h2 {
@@ -266,7 +266,9 @@ letter-spacing: 0;
     display: block;
     float: right;
     padding-right: 8%;
+    position: absolute;
   }
+
 
   .iam-chaymae p{
     float: right;
@@ -278,6 +280,8 @@ letter-spacing: 0;
     line-height: 1em;
     text-align: right;
     display: block;
+    position: absolute;
+    bottom: 50%;
   }
 
   .scroll-down {
