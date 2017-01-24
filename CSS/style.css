@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  padding-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0;
+  margin: 0;
+  height:100vh;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.horizon{ opacity:"0"; }
+
+.portfolio h1 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 2em;
+  color: #E3120B;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.portfolio h2 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 1.4em;
+  color: #E3120B;
+  letter-spacing: 0;
+  line-height: 1.2em;
+}
+
+.portfolio h6 {
+  /* Napoleon Bonaparte: */
+font-family: PlayfairDisplay-Italic;
+font-size: 0.6em;
+font-weight: lighter;
+font-style: italic;
+text-align: right;
+color: #E3120B;
+letter-spacing: 0;
+}
+
+.portfolio p {
+font-family: Merriweather-Light;
+font-size: 0.6em;
+font-weight: lighter;
+color: #323238;
+letter-spacing: 0;
+line-height: 32px;
+align-items: center;
+}
+
+.portfolio a {
+  /* Doanload the present: */
+font-family: PlayfairDisplay-Regular;
+font-size: 1.2em;
+font-weight: 100;
+text-decoration: underline;
+color: #E3120B;
+letter-spacing: 0;
+}
+
+.spacer {
+  height: 100px;
+  width: 100%;
+}
+
+#section1 {
+  background-image: url("./portrait-white-small.png");
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+
+}
+
+.profile_pic {
+  width: 90vw;
+  padding-top: 5%;
+}
+.signature img{
+  width: 50%;
+  display: block;
+  float: right;
+  padding-right: 8%;
+}
+
+.iam-chaymae p{
+  float: right;
+  padding-right: 8%;
+  padding-top: 0;
+  margin-top: 0;
+  width:60%;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  text-align: right;
+  display: block;
+}
+
+.scroll-down {
+  display: none;
+  width: 100%;
+  background-color: yellow;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.scroll-down img {
+  width: 3%;
+  padding-top: 4%;
+  top: 90%;
+}
+
+.about_something {
+  width: 60%;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+.image-right img {
+  width: 40%;
+  display: inline;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.text_left {
+  float: left;
+  display: inline;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+.image-left img {
+  width: 40%;
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.text_right {
+  float: right;
+  display: inline;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media {
+  display: block;
+  width: 100%;
+  background-color: yellow;
+  position: absolute;
+  bottom: 15px;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-media img {
+  width: 5%;
+  padding: 15%;
+  margin: 5%;
+  display: inline-block;
+}
+
+
+@media only screen and (max-width : 320px)
+{
+
+}
+@media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
+  /* Your click-specific css goes here */
+}

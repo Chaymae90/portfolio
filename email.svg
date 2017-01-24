@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="layout-desktop-white-0.1" transform="translate(-329.000000, -6611.000000)">
+            <g id="email" transform="translate(329.000000, 6611.000000)">
+                <path d="M32.0005712,64 C14.3265678,64 0,49.6733044 0,32.0002856 C0,14.3278381 14.3265678,0 32.0005712,0 C49.6734322,0 64,14.3278381 64,32.0002856 C64,49.6733044 49.6734322,64 32.0005712,64 Z" id="Fill-10" fill="#E3120B"></path>
+                <g id="Group" transform="translate(5.000000, 17.000000)">
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="6" y="1" width="42" height="30"></rect>
+                    <path d="M48.1606614,0.984977648 L53.5820103,1.01284977 L27,20 L0.0325595389,0.737542528 L5.62223748,0.766280055 L27,16.0681521 L48.1606614,0.984977648 Z" id="Combined-Shape" fill="#E3120B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

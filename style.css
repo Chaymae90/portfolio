@@ -87,28 +87,28 @@ letter-spacing: 0;
   width: 50%;
   display: block;
   float: right;
-  padding-right: 3%;
+  padding-right: 8%;
 }
 
 .iam-chaymae p{
   float: right;
-  padding-right: 3%;
+  padding-right: 8%;
   padding-top: 0;
   margin-top: 0;
   width:60%;
   font-size: 1.3em;
-  line-height: 1.1em;
+  line-height: 1.3em;
   text-align: right;
   display: block;
 }
 
 .scroll-down {
-  display: none;
+  display: block;
   width: 100%;
-  background-color: yellow;
-  align-content: center;
-  justify-content: center;
-  align-items: baseline;
+  position: absolute;
+  bottom: 6%;
+  text-align: center;
+  margin: 0;
 }
 .scroll-down img {
   width: 3%;
@@ -154,78 +154,210 @@ letter-spacing: 0;
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width : 320px)
+
+.social-media {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  margin: 0;
+}
+
+.social-media img {
+  padding-right: 1%;
+  padding-left: 1%;
+  display: inline-block;
+  margin: 0;
+}
+
+
+@media only screen and (max-width : 500px)
 {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   section {
-    background-color: yellow;
     width: 100%;
     padding-top: 0;
-    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 0;
     margin: 0;
     height:100vh;
+    font-size: 2em;
     line-height: 1.2em;
   }
-  .about-text {
-    color: green;
-  	font-family: Montserrat;
-  	font-size: 2em;
-  	font-weight: bold;
-  	line-height: 0.9;
-    margin-bottom: 2%;
-    margin-top: 5%;
+
+  .horizon{ opacity:"0"; }
+
+  .portfolio h1 {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 1em;
+    padding-bottom: 4%;
+    color: #E3120B;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
   }
 
-  p {
-    width: 80%;
-  	font-family: Merriweather;
-    font-size: 0.5em;
-    font-weight: 300;
-  	line-height: 1.6;
-    font-weight: lighter;
-  }
-  .hi-ho {
-  	font-family: Montserrat;
-  	font-size: 3em;
-  	font-weight: bold;
-  	line-height: 0.4;
-  	color: #ca2d2d;
+  .portfolio h2 {
+    font-family: PlayfairDisplay-Bold;
+    font-size: 0.8em;
+    color: #E3120B;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    padding-top: 3%;
   }
 
-  .red_background img {
-    width: 50%;
-    display: block;
-    float: right;
+  .portfolio h6 {
+    /* Napoleon Bonaparte: */
+  font-family: PlayfairDisplay-Italic;
+  font-size: 0.4em;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: right;
+  color: #E3120B;
+  letter-spacing: 0;
   }
 
-  .red_background {
-    color: #f7f7f1;
-    background-color: #CA2D2D;
+  .portfolio p {
+  font-family: Merriweather-Light;
+  font-size: 0.5em;
+  font-weight: lighter;
+  color: #323238;
+  letter-spacing: 0;
+  line-height: 1.4em;
+  align-items: center;
+  padding: 0;
   }
 
-  .text_left {
-    float: left;
-    display: block;
+  .portfolio a {
+    /* Doanload the present: */
+  font-family: PlayfairDisplay-Regular;
+  font-size: 0.9em;
+  font-weight: 100;
+  text-decoration: underline;
+  color: #E3120B;
+  letter-spacing: 0;
+  }
+
+  .spacer {
+    height: 30px;
     width: 100%;
   }
 
-  .white_background {
-    color: #323238;
-  	font-family: Merriweather;
-    background-color: white_background;
+  #section1 {
+    background-image: url("./portrait-white-small.png");
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
 
   }
-  .white_background img {
-    width: 50%;
+
+  .profile_pic {
+    width: 90vw;
+    padding-top: 5%;
+  }
+  .signature img{
+    width: 100%;
+    display: block;
+    float: right;
+    padding-right: 8%;
+  }
+
+  .iam-chaymae p{
+    float: right;
+    padding-right: 8%;
+    padding-top: 0;
+    margin-top: 0;
+    width:80%;
+    font-size: 0.8em;
+    line-height: 1em;
+    text-align: right;
+    display: block;
+  }
+
+  .scroll-down {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 6%;
+    text-align: center;
+    margin: 0;
+  }
+  .scroll-down img {
+    width: 5%;
+    padding-top: 4%;
+    top: 90%;
+  }
+
+  .about_something {
+    width: 100%;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .image-right img {
+    width: 100%;
+    display: block;
+    float: right;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10%;
+  }
+  .text_left {
+    float: left;
+    display: inline;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text_left p {
+    margin: 0;
+  }
+
+  .image-left img {
+    width: 100%;
     display: block;
     float: left;
-
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10%;
   }
 
   .text_right {
-    float: right;
-    display: block;;
+    float: left;
+    display: inline;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text_right p {
+    margin: 0;
+  }
+
+  .social-media {
+    display: block;
     width: 100%;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .social-media img {
+    padding-right: 1%;
+    padding-left: 1%;
+    display: inline-block;
+    margin: 0;
+    width: 15%;
   }
 }
 @media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
