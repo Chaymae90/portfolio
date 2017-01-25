@@ -127,6 +127,12 @@ letter-spacing: 0;
   padding-top: 1%;
   top: 90%;
 }
+.scroll-down a {
+  text-decoration: none;
+}
+.scroll-down a:hover {
+  cursor: pointer;
+}
 
 .about_something {
   width: 60%;

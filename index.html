@@ -24,8 +24,10 @@
           </div>
         </div>
         <div data-animate-in="preset:bounceInDown;duration:1000ms;" class="horizon scroll-down">
-          <p>Scroll down</p>
-          <img src="button-scroll.png" alt="">
+          <a id="to-second-page">
+            <p>Scroll down</p>
+            <img src="button-scroll.png" alt="">
+          </a>
         </div>
       </section>
       <section class="section">
@@ -119,18 +121,28 @@
   <script type="text/javascript" src="jquery.fullpage.min.js"></script>
   <script type="text/javascript">
 
-$( document ).ready( function(){
-  $('#fullpage').fullpage({
-    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-    menu: '#menu',
-    css3:true,
-    lockAnchors: true,
-    afterLoad: function(){
-      $(window).scroll();
-    }
+  $( document ).ready( function(){
+    $('#fullpage').fullpage({
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+      menu: '#menu',
+      css3:true,
+      lockAnchors: true,
+      afterLoad: function(){
+        $(window).scroll();
+      }
+    });
+  	$( '.horizon' ).horizon({threshold:0.5});
+    $(document).keyup(function(e){
+     if(e.keyCode == 32){
+         //When spacebar is pressed
+         $.fn.fullpage.moveSectionDown();
+     }
+    });
+
+    $('#to-second-page').click(function(e){
+       $.fn.fullpage.moveSectionDown();
+    });
   });
-	$( '.horizon' ).horizon({threshold:0.5});
-});
 
   </script>
 </html>
