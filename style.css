@@ -194,7 +194,8 @@ letter-spacing: 0;
   .horizon{ opacity:"0"; }
 
   .portfolio h1 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay;
+    font-weight: bold;
     font-size: 1em;
     padding-bottom: 4%;
     color: #E3120B;
@@ -204,7 +205,8 @@ letter-spacing: 0;
   }
 
   .portfolio h2 {
-    font-family: PlayfairDisplay-Bold;
+    font-family: PlayfairDisplay;
+    font-weight: bold;
     font-size: 0.8em;
     color: #E3120B;
     letter-spacing: 0;
@@ -214,7 +216,7 @@ letter-spacing: 0;
 
   .portfolio h6 {
     /* Napoleon Bonaparte: */
-  font-family: PlayfairDisplay-Italic;
+  font-family: PlayfairDisplay;
   font-size: 0.4em;
   font-weight: lighter;
   font-style: italic;
@@ -224,7 +226,7 @@ letter-spacing: 0;
   }
 
   .portfolio p {
-  font-family: Merriweather-Light;
+  font-family: Merriweather;
   font-size: 0.5em;
   font-weight: lighter;
   color: #323238;
@@ -236,7 +238,8 @@ letter-spacing: 0;
 
   .portfolio a {
     /* Doanload the present: */
-  font-family: PlayfairDisplay-Regular;
+  font-family: PlayfairDisplay;
+  font-weight:normal;
   font-size: 0.9em;
   font-weight: 100;
   text-decoration: underline;
