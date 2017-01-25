@@ -18,7 +18,8 @@ section {
 .horizon{ opacity:"0"; }
 
 .portfolio h1 {
-  font-family: PlayfairDisplay-Bold;
+  font-family:'Playfair Display';
+  font-weight: bold;
   font-size: 2em;
   color: #E3120B;
   letter-spacing: 0;
@@ -28,7 +29,8 @@ section {
 }
 
 .portfolio h2 {
-  font-family: PlayfairDisplay-Bold;
+  font-family:'Playfair Display';
+  font-weight: bold;
   font-size: 1.4em;
   color: #E3120B;
   letter-spacing: 0;
@@ -37,7 +39,7 @@ section {
 
 .portfolio h6 {
   /* Napoleon Bonaparte: */
-font-family: PlayfairDisplay-Italic;
+font-family:'Playfair Display';
 font-size: 0.6em;
 font-weight: lighter;
 font-style: italic;
@@ -47,7 +49,7 @@ letter-spacing: 0;
 }
 
 .portfolio p {
-font-family: Merriweather-Light;
+font-family: 'Merriweather';
 font-size: 0.6em;
 font-weight: lighter;
 color: #323238;
@@ -58,7 +60,7 @@ align-items: center;
 
 .portfolio a {
   /* Doanload the present: */
-font-family: PlayfairDisplay-Regular;
+font-family:'Playfair Display';
 font-size: 1.2em;
 font-weight: 100;
 text-decoration: underline;
@@ -194,7 +196,7 @@ letter-spacing: 0;
   .horizon{ opacity:"0"; }
 
   .portfolio h1 {
-    font-family: PlayfairDisplay;
+    font-family: 'Playfair Display';
     font-weight: bold;
     font-size: 1em;
     padding-bottom: 4%;
@@ -205,7 +207,7 @@ letter-spacing: 0;
   }
 
   .portfolio h2 {
-    font-family: PlayfairDisplay;
+    font-family:'Playfair Display';
     font-weight: bold;
     font-size: 0.8em;
     color: #E3120B;
@@ -216,7 +218,7 @@ letter-spacing: 0;
 
   .portfolio h6 {
     /* Napoleon Bonaparte: */
-  font-family: PlayfairDisplay;
+  font-family:'Playfair Display';
   font-size: 0.4em;
   font-weight: lighter;
   font-style: italic;
@@ -226,7 +228,7 @@ letter-spacing: 0;
   }
 
   .portfolio p {
-  font-family: Merriweather;
+  font-family: 'Merriweather';
   font-size: 0.5em;
   font-weight: lighter;
   color: #323238;
@@ -238,7 +240,7 @@ letter-spacing: 0;
 
   .portfolio a {
     /* Doanload the present: */
-  font-family: PlayfairDisplay;
+  font-family: 'Playfair Display';
   font-weight:normal;
   font-size: 0.9em;
   font-weight: 100;
