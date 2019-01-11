@@ -15,6 +15,9 @@ section {
   line-height: 1.2em;
 }
 
+.logos img {
+  padding: 2%;
+}
 .horizon{ opacity:"0"; }
 
 .portfolio h1 {
@@ -270,14 +273,6 @@ letter-spacing: 0;
     width: 100%;
   }
 
-  #section1 {
-    background-image: url("./portrait-white-small.png");
-    background-size: cover;
-    align-items: center;
-    background-repeat: no-repeat;
-
-  }
-
   .profile_pic {
     width: 90vw;
     padding-top: 5%;
@@ -292,18 +287,19 @@ letter-spacing: 0;
 
 
   .iam-chaymae p{
+
     float: right;
     padding-right: 8%;
     padding-top: 0;
     margin-top: 0;
     width:80%;
     color: black;
-    font-size: 0.8em;
+    font-size: 0.5em;
     line-height: 1.3em;
     text-align: right;
     display: block;
     position: absolute;
-    bottom: 50%;
+    bottom: 10%;
   }
 
   .scroll-down {
